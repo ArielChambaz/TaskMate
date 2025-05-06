@@ -5,14 +5,14 @@ class TaskCard extends StatelessWidget {
   final Task task;
   final VoidCallback onDelete;
   final VoidCallback onToggle;
-  final VoidCallback onEdit; // New parameter for editing
+  final VoidCallback onEdit;
 
   const TaskCard({
     Key? key,
     required this.task,
     required this.onDelete,
     required this.onToggle,
-    required this.onEdit, // Adding the edit callback
+    required this.onEdit,
   }) : super(key: key);
 
   @override
@@ -25,7 +25,7 @@ class TaskCard extends StatelessWidget {
           onChanged: (_) => onToggle(),
         ),
         title: GestureDetector(
-          onTap: onEdit, // Opens the edit dialog when tapping on the text
+          onTap: onEdit,
           child: Text(
             task.title,
             style: TextStyle(

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "989679624387",
+    "project_id": "mobile-its",
+    "storage_bucket": "mobile-its.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989679624387:android:6175c657893effa6a78276",
+        "android_client_info": {
+          "package_name": "com.example.taskmate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAStB0dCP86L8nqdm5AgBe4bQDYgJSwT98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
